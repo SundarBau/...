@@ -1,0 +1,15 @@
+{
+  "theme": "Life Axis",
+  "version": "1.15.1-v1.0.0",
+  "exportedAt": "2026-08-20T14:51:48.889Z",
+  "pterodactylVersion": "1.15.1",
+  "blueprintVersion": "^1.15.0",
+  "config": {
+    "preset": "nebula-purple",
+    "primaryColor": "#8b5cf6",
+    "secondaryColor": "#06b6d4",
+    "accentGlow": true,
+    "glassOpacity": 0.7,
+    "borderRadius": 16
+  }
+}

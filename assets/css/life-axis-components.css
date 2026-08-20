@@ -1,0 +1,56 @@
+/* Glass Card Architecture */
+.axis-card {
+  background: var(--axis-bg-card);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--axis-border-subtle);
+  border-radius: 14px;
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.axis-card:hover {
+  border-color: rgba(139, 92, 246, 0.28);
+  box-shadow: 0 14px 40px -10px rgba(0, 0, 0, 0.7), var(--axis-glow);
+}
+
+/* Buttons */
+.axis-btn-primary {
+  background: var(--axis-accent-gradient);
+  color: #ffffff;
+  font-weight: 600;
+  border-radius: 10px;
+  padding: 0.625rem 1.25rem;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 4px 15px rgba(139, 92, 246, 0.3);
+  transition: all 0.2s ease;
+}
+.axis-btn-primary:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 22px rgba(139, 92, 246, 0.45);
+}
+
+/* Console Terminal View */
+.axis-terminal {
+  background: #07080b !important;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  font-family: var(--axis-font-mono) !important;
+  color: #38bdf8;
+  padding: 1rem;
+  box-shadow: inset 0 2px 10px rgba(0, 0, 0, 0.8);
+}
+
+/* Resource Progress Bars */
+.axis-progress-track {
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 9999px;
+  overflow: hidden;
+  height: 6px;
+}
+.axis-progress-fill {
+  height: 100%;
+  border-radius: 9999px;
+  background: var(--axis-accent-gradient);
+  transition: width 0.4s ease;
+}

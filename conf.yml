@@ -1,0 +1,31 @@
+info:
+  name: "Life Axis"
+  identifier: "life-axis-theme"
+  version: "1.15.1-v1.0"
+  description: "Futuristic dark premium hosting interface for Pterodactyl Panel."
+  author: "Life Axis Team"
+  icon: "assets/icon.png"
+  target: "v1.15.1"
+  website: "https://lifeaxis.infrastructure"
+
+dashboard:
+  css:
+    - "assets/css/life-axis-core.css"
+    - "assets/css/life-axis-components.css"
+  js:
+    - "assets/js/life-axis-init.js"
+
+admin:
+  css:
+    - "assets/css/life-axis-core.css"
+    - "assets/css/life-axis-admin.css"
+  js:
+    - "assets/js/life-axis-admin.js"
+
+settings:
+  accent_primary: "#8b5cf6"
+  accent_secondary: "#06b6d4"
+  background_base: "#0b0c10"
+  glass_opacity: "0.75"
+  glow_intensity: "medium"
+  enable_quick_actions: true
